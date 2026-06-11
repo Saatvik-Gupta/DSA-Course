@@ -1,7 +1,7 @@
-// Printing right angled,
-//Half upper and lower traingles,
-//Pyramid
-//Hollow and solid box
+// Printing right angled pattern,
+//Half upper and lower triangles,
+//Pyramid pattern
+//Hollow and solid box pattern
 
 #include<iostream>
 #include<stdlib.h> //to use exit(0)
