@@ -1,0 +1,1 @@
+cout<<"Capacity of Vector"<<vec.capacity()<<endl;
