@@ -1,10 +1,14 @@
-// STL= " Standarf Template Library"
+// STL= " Standard Template Library"
+
 /* It consistes of:-
 Containers--> vector, list, set, map, stack, queue, deque, priority queue + more
 // (vector,list,deque)-- sequence containers--Data stored in sequence
 // (stack,queue,priorityqueue,map,set)-- unsequential containers--Data stored in any sequence
+
 Algorithms--> reverse, sort, min/max + more
+
 Iterators-->.begin(), .end()
+
 Functions-->size() , insert(), pussh_back() +more
 */
 
