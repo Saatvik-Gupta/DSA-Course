@@ -32,8 +32,35 @@ void bubblesort(vector<int>nums){
 
 }
 
+void SelectionSort(vector<int>nums){ // minimum element logic
+    int n=nums.size();
+
+    cout<<"Elements before sorting:"<<endl;
+    for(int val: nums){
+        cout<<val<<" ";
+    }
+    cout<<endl;
+
+    for(int i=0; i<n-1; i++){
+        int min=i;
+        for(int j= i+1; j<n; j++){
+            if(nums[j]<nums[min]){
+                min=j;
+            }
+        }
+        swap(nums[i], nums[min]);
+    }
+
+    cout<<"Elements after sorting:"<<endl;
+    for(int val: nums){
+        cout<<val<<" ";
+    }
+
+}
+
 int main(){
     vector<int>sort={ 1,6,3,9,7,4};
-    bubblesort(sort);
+    //bubblesort(sort);
+    SelectionSort(sort);
     return 0;
 }
