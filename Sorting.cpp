@@ -58,9 +58,37 @@ void SelectionSort(vector<int>nums){ // minimum element logic
 
 }
 
+void Insertionsort(vector<int>nums){ // like playing cards
+     int n=nums.size();
+
+    cout<<"Elements before sorting:"<<endl;
+    for(int val: nums){
+        cout<<val<<" ";
+    }
+    cout<<endl;
+
+    for(int i=1; i<n; i++){
+        int current=nums[i];
+        int prev=i-1;
+        while(prev>=0 && nums[prev]>current){
+            nums[prev+1]=nums[prev];
+            prev--;
+        }
+        nums[prev+1]=current;
+    }
+
+    cout<<"Elements after sorting:"<<endl;
+    for(int val: nums){
+        cout<<val<<" ";
+    }
+    cout<<endl;
+
+}
+
 int main(){
     vector<int>sort={ 1,6,3,9,7,4};
     //bubblesort(sort);
-    SelectionSort(sort);
+    //SelectionSort(sort);
+    Insertionsort(sort);
     return 0;
 }
