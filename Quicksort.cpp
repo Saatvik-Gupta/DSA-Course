@@ -10,8 +10,6 @@ Explanation: After sorting the array, the positions of some numbers are not chan
 Algorithm used: Quicksort
 
 Quicksort: Complexity-O(nlogn) or O(n^2) in worst case, Space Complexity: O(logn) due to recurssive call, In-place sorting, No extra temporary space.
-
-LEETCODE Problem Number---912
 */
 
 #include<iostream>
