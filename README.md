@@ -68,7 +68,7 @@ This repository contains C++ programs and problem-solving codes ranging from bas
 
   * BFS
   * DFS
-  * Dijkstra Algorithm
+  * Dijkstra Algorithm + more
 
 ### Problem Solving
 
