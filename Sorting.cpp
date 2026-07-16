@@ -1,6 +1,7 @@
 // Sorting simply means to arrange data in either increasing or decreasing fashion
 // Here Doing 3 sorting algorithms:- 
 // Bubble Sort, Selection sort, Insertion Sort
+// Complexity : O(n^2) of all
 
 #include<iostream>
 using namespace std;
