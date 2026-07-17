@@ -21,7 +21,8 @@ cin>>num;
 while(true)
 {
     cout<<"Enter the choice of Pattern you want to see:----"<<endl;
-    cout<<"1-Right Angled Pattern:"<<endl<<"2-Half Pyramids Pattern:"<<endl<<"3-Boxes :Hollow and solid Pattern:"<<endl<<"4-Pyramid Pattern:"<<endl<<"5-Exit"<<endl;
+    cout<<"1-Right Angled Pattern:"<<endl<<"2-Half Pyramids Pattern:"<<endl
+        <<"3-Boxes :Hollow and solid Pattern:"<<endl<<"4-Pyramid Pattern:"<<endl<<"5-Exit"<<endl;
     cin>>ch;
     switch(ch)
     {
