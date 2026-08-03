@@ -17,7 +17,7 @@ void Counting_Sort(vector<int>& arr,vector<int>& B, int n,int k){
         c[arr[j]]++;
     }
 
-    for(int i=1; i<=k; i++){
+    for(int i=1; i<=k; i++){ // modifying the frequency array
         c[i]=c[i]+c[i-1];
     }
 
