@@ -23,7 +23,7 @@ void sort(vector<int>& start,vector<int>& finish,vector<string>& activity,int n)
 
 int main()
 {
-    vector<string>activity={"A1","A2","A3","A4","A5","A6","A7","A8","A9","A10"};
+    vector<string>activity={"A1","A2","A3","A4","A5","A6","A7","A8","A9","A10"}; // char* s[]={} in C
     vector<int>start={1,2,3,4,7,8,9,9,11,12};
     vector<int>finish={3,5,4,7,10,9,11,13,12,14};
 
