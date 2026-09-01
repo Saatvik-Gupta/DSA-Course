@@ -11,7 +11,7 @@ void sort(vector<int>& start,vector<int>& finish,vector<string>& activity,int n)
     for(i=0; i<n-1 ; i++){
         for(j=0; j<n-1-i; j++){
 
-            if(finish[j]>finish[j+1]){
+            if(finish[j]>finish[j+1]){ // Sort in respect of finishing time
 
                 swap(finish[j],finish[j+1]);
                 swap(start[j],start[j+1]);
