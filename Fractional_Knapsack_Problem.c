@@ -44,7 +44,7 @@ int main(){
 
     sort(price,weight,value,n); // sorting price per unit along with its weights and values in descending order
 
-    for(i=0; i<n && W>0; i++){
+    for(i=0; i<n && W>0; i++){ // Weight should be greater than 0
             int amount=min(W,weight[i]);
             W=W-amount;
             max_cost+=amount * price[i];
