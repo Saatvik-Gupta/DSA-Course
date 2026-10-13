@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    int n, W;
+    int n, W; // items and bag Capacity
     cout << "Enter number of items: ";
     cin >> n;
 
